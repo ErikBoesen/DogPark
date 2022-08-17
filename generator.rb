@@ -1,7 +1,7 @@
 require './chars'
 
-WIDTH = 15
-HEIGHT = 5
+WIDTH = 16
+HEIGHT = 6
 DOG_PROBABILITY = 0.6
 DOG_DECORATED_PROBABILITY = 0.5
 DOG_RUNNING_PROBABILITY = 0.3
@@ -95,8 +95,9 @@ def generate()
         previous_emoji_count = emoji_count
     end
 
-    string = Chars::FENCE_TOP_LEFT + (Chars::FENCE_HORIZONTAL * (2 * WIDTH)) + Chars::FENCE_TOP_RIGHT + "\n"
-    string << lines.collect { |line| Chars::FENCE_VERTICAL + line.join("") + Chars::FENCE_VERTICAL }.join("\n")
-    string << "\n" + Chars::FENCE_BOTTOM_LEFT + (Chars::FENCE_HORIZONTAL * (2 * WIDTH)) + Chars::FENCE_BOTTOM_RIGHT
-    return string
+    #string = Chars::FENCE_TOP_LEFT + (Chars::FENCE_HORIZONTAL * (2 * WIDTH)) + Chars::FENCE_TOP_RIGHT + "\n"
+    #string << lines.collect { |line| Chars::FENCE_VERTICAL + line.join("") + Chars::FENCE_VERTICAL }.join("\n")
+    #string << "\n" + Chars::FENCE_BOTTOM_LEFT + (Chars::FENCE_HORIZONTAL * (2 * WIDTH)) + Chars::FENCE_BOTTOM_RIGHT
+    #return string
+    return lines.collect { |line| line.join("").rstrip }.join("\n")
 end

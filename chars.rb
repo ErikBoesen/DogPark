@@ -1,6 +1,6 @@
 class Chars
   DOGS = ["🐕", "🦮", "🐶", "🐕‍🦺", "🐩", "🐺"]
-  UNALIGNED_DOGS = ["🐶"]
+  UNALIGNED_DOGS = ["🐺", "🐶"]
   DOG_DECORATORS = ["💕", "💓", "🦴", "🎾", "🥏"]
   DOG_DUST = ["💨"]
   ENVIRONMENT_DECORATORS = ["🛝", "🌿", "🍃", "🍂", "🌲", "🌳", "🦴", "🎾", "🥏"]

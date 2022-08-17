@@ -12,6 +12,6 @@ client = Twitter::REST::Client.new do |config|
 end
 
 text = generate()
-#client.update(text)
+client.update(text)
 puts "Tweeted:\n#{text}"
 puts "Length: #{text.length}"

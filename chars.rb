@@ -1,7 +1,7 @@
 class Chars
   DOGS = ["🥰", "😊", "☺️", "🥺", "😇"]
   DOG_DECORATORS = ["💕", "💓", "🦴", "🎾", "🥏"]
-  ENVIRONMENT_DECORATORS = ["🛝"", "🍃", "🍂", "🌲", "🌳", "🦴", "🎾", "🥏"]
+  ENVIRONMENT_DECORATORS = ["🛝", "🍃", "🍂", "🌲", "🌳", "🦴", "🎾", "🥏"]
   IDEOGRAPHIC_SPACE = "\u3000"
   EN_SPACE = "\u2002"
   EM_SPACE = "\u2003"

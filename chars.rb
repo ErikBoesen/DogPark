@@ -1,5 +1,5 @@
 class Chars
-  DOGS = ["🥰", "😊", "☺️", "🥺", "😇"]
+  DOGS = ["🐕", "🦮", "🐶", "🐕‍🦺", "🐩", "🐺"]
   DOG_DECORATORS = ["💕", "💓", "🦴", "🎾", "🥏"]
   ENVIRONMENT_DECORATORS = ["🛝", "🍃", "🍂", "🌲", "🌳", "🦴", "🎾", "🥏"]
   IDEOGRAPHIC_SPACE = "\u3000"
@@ -8,4 +8,10 @@ class Chars
   THREE_PER_EM_SPACE = "\u2004"
   THIN_SPACE = "\u2009"
   HAIR_SPACE = "\u200a"
+  FENCE_TOP_LEFT = "╔"
+  FENCE_TOP_RIGHT = "╗"
+  FENCE_BOTTOM_LEFT = "╚"
+  FENCE_BOTTOM_RIGHT = "╝"
+  FENCE_VERTICAL = "║"
+  FENCE_HORIZONTAL = "═"
 end

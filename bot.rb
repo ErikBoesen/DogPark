@@ -14,3 +14,4 @@ end
 text = generate()
 #client.update(text)
 puts "Tweeted:\n#{text}"
+puts "Length: #{text.length}"

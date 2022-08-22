@@ -2,7 +2,6 @@ class Chars
   DOGS = ["🐕", "🦮", "🐶", "🐕‍🦺", "🐩", "🐺"]
   UNALIGNED_DOGS = ["🐺", "🐶"]
   DOG_DECORATORS = ["💕", "💓", "🦴", "🎾", "🥏"]
-  DOG_DUST = ["💨"]
   ENVIRONMENT_DECORATORS = ["🛝", "🌿", "🍃", "🍂", "🌲", "🌳", "🦴", "🎾", "🥏"]
   IDEOGRAPHIC_SPACE = "\u3000"
   EN_SPACE = "\u2002"

@@ -76,10 +76,6 @@ def generate()
                 object = object + dog_decorator
               else
                 object = dog_decorator + object
-                if rand() < DOG_RUNNING_PROBABILITY then
-                  width_remaining -= 1
-                  object += Chars::DOG_DUST.sample
-                end
               end
             end
           else

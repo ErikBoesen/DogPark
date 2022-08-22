@@ -1,2 +1,2 @@
-# Note: running on cobra zoo node
+# Note: running on jaguar zoo node
 0 12 * * * (cd ~/DogPark && ruby bot.rb) &> ~/DogPark_log
